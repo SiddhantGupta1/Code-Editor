@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.window{
+    height: 50vh;
+    display: flex;
+}
+
+.top-window{
+    background: rgb(60, 49, 68);
+}
