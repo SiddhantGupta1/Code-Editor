@@ -1,7 +1,15 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+button{
+    width: 1rem;
+    height: 1rem;
+    border: 0;
+    background: none;
+    cursor: pointer;
 }
 
 .window{
@@ -10,5 +18,30 @@
 }
 
 .top-window{
-    background: rgb(60, 49, 68);
+    background: rgb(32, 26, 36);
+}
+
+.editor-container{
+    background: rgb(32, 26, 36);
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: .5rem;
+}
+.editor-title{
+    color: white;
+    padding: .2rem .5rem .6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CodeMirror {
+    height: 100% !important;
+}
+
+.code-mirror-editor{
+    flex-grow: 1;
+    overflow: hidden;
 }
